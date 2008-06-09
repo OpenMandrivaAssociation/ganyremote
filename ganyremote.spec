@@ -1,6 +1,6 @@
 %define name ganyremote
 %define version 3.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: GTK frontend for anyRemote
 Name: %{name}
@@ -15,10 +15,9 @@ URL: http://anyremote.sourceforge.net/
 Requires: pygtk2.0 python-pybluez anyremote bluez-utils
 
 %description
-gAnyRemote package is GTK GUI frontend for anyRemote
-(http://anyremote.sourceforge.net/). The overall goal of this project is to
-provide remote control service on Linux through Bluetooth, InfraRed, Wi-Fi
-or TCP/IP connection.
+gAnyRemote package is GTK GUI frontend for anyRemote.  It provides remote
+control service on Linux through Bluetooth, InfraRed, Wi-Fi or TCP/IP
+connection.
 
 %prep
 %setup -q
