@@ -1,6 +1,6 @@
 %define name ganyremote
-%define version 3.0
-%define release %mkrel 2
+%define version 5.0
+%define release %mkrel 1
 
 Summary: GTK frontend for anyRemote
 Name: %{name}
@@ -23,12 +23,14 @@ connection.
 %setup -q
 
 %build
-%configure2_5x
+%configure2_5x --build=%{_host}
 %make
 
 %install
 rm -rf $RPM_BUILD_ROOT
 %makeinstall_std
+
+%find_lang %name
 
 # we'll cp our own doc files
 rm -rf %buildroot%_datadir/doc
@@ -46,7 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 %clean_menus
 %endif
 
-%files
+%files -f %name.lang
 %defattr(-,root,root)
 %doc NEWS README AUTHORS
 %{_bindir}/%name
