@@ -1,6 +1,6 @@
 %define name ganyremote
-%define version 5.3
-%define release %mkrel 2
+%define version 5.4
+%define release %mkrel 1
 
 Summary: GTK frontend for anyRemote
 Name: %{name}
