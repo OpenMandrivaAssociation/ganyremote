@@ -1,18 +1,18 @@
-%define name ganyremote
-%define version 5.11.2
-%define release %mkrel 1
+%define	name	ganyremote
+%define version	5.11.3
+%define	release	%mkrel 1
 
-Summary: GTK frontend for anyRemote
-Name: %{name}
-Version: %{version}
-Release: %{release}
-License: GPLv2+
-Group: Graphical desktop/GNOME
-BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Buildarch: noarch
-Source0: http://nchc.dl.sourceforge.net/sourceforge/anyremote/%name-%version.tar.gz
-URL: http://anyremote.sourceforge.net/
-Requires: pygtk2.0 python-pybluez anyremote bluez
+Summary:	GTK frontend for anyRemote
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
+License:	GPLv2+
+Group:		Graphical desktop/GNOME
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Buildarch:	noarch
+Source0:	http://nchc.dl.sourceforge.net/sourceforge/anyremote/%name-%version.tar.gz
+URL:		http://anyremote.sourceforge.net/
+Requires:	pygtk2.0 python-pybluez anyremote bluez
 
 %description
 gAnyRemote package is GTK GUI frontend for anyRemote.  It provides remote
