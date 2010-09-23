@@ -1,5 +1,5 @@
 %define	name	ganyremote
-%define version	5.11.5
+%define version	5.11.7
 %define	release	%mkrel 1
 
 Summary:	GTK frontend for anyRemote
@@ -10,7 +10,7 @@ License:	GPLv2+
 Group:		Graphical desktop/GNOME
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Buildarch:	noarch
-Source0:	http://nchc.dl.sourceforge.net/sourceforge/anyremote/%name-%version.tar.gz
+Source0:	 http://download.sourceforge.net/anyremote/%name-%version.tar.gz
 URL:		http://anyremote.sourceforge.net/
 Requires:	pygtk2.0 python-pybluez anyremote bluez
 
