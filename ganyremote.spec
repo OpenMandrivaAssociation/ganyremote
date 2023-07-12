@@ -5,7 +5,7 @@
 Summary:		GTK frontend for anyRemote
 Name:	%{name}
 Version:		%{version}
-Release:		%{release}
+Release:		%{release}1
 License:		GPLv2+
 Group:	Graphical desktop/GNOME
 Buildarch:	noarch
