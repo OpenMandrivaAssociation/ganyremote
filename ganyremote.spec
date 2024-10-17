@@ -10,7 +10,7 @@ License:		GPLv2+
 Group:	Graphical desktop/GNOME
 Buildarch:	noarch
 Source0:	 http://download.sourceforge.net/anyremote/%name-%version.tar.gz
-URL:	http://anyremote.sourceforge.net/
+URL:	https://anyremote.sourceforge.net/
 Requires:	pygtk2.0 
 Requires:	python-pybluez 
 Requires:	anyremote 
