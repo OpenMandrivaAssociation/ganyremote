@@ -16,6 +16,11 @@ Requires:	python-pybluez
 Requires:	anyremote 
 Requires:	bluez
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 gAnyRemote package is GTK GUI frontend for anyRemote.  It provides remote
 control service on Linux through Bluetooth, InfraRed, Wi-Fi or TCP/IP
